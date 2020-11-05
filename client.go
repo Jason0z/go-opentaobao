@@ -194,7 +194,7 @@ func (p Parameter) setRequestData() {
 	p["app_key"] = AppKey
 	p["v"] = "2.0"
 	p["sign_method"] = "md5"
-	p["partner_id"] = "Nilorg"
+	p["partner_id"] = "Jason"
 	if Session != "" {
 		p["session"] = Session
 	}
