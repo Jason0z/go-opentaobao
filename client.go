@@ -133,7 +133,6 @@ func bytesToResult(bytes []byte) (res *simplejson.Json, err error) {
 		} else {
 			err = errors.New(responseError.Get("msg").MustString())
 		}
-		res = nil
 	}
 	return
 }
